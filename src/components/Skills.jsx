@@ -48,7 +48,7 @@ function Skills() {
                                 Skills
                             </h2>
                             <p>Placeholder Text</p>
-                            <Carousel responsive={responsive} autoPlay={true} infinite={true} autoPlaySpeed={1000} removeArrowOnDeviceType={["tablet", "mobile", "desktop"]} className='skill-slider'>
+                            <Carousel responsive={responsive} autoPlay={true} infinite={true} autoPlaySpeed={1000}  pauseOnHover={false} removeArrowOnDeviceType={["tablet", "mobile", "desktop"]} className='skill-slider'>
                                 <div className='item'>
                                     <img src={postgres} alt="Image" />
                                     <h5>PostgresSQL</h5>

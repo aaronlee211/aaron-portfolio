@@ -47,7 +47,10 @@ function Banner() {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className='tagline'>Welcome to my Portfolio!</span>
-                        <h1>{`Hello! I'm Aaron Lee `}<span className='wrap'>{text}</span></h1>
+                        <h1>{`Hello! I'm Aaron Lee `}</h1>
+                        <div className='div-span-banner'>
+                            <span className='wrap span-banner'>{text}</span>
+                        </div>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
