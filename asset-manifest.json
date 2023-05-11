@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aaron-portfolio/static/css/main.a656edb2.css",
+    "main.css": "/aaron-portfolio/static/css/main.48a31b19.css",
     "main.js": "/aaron-portfolio/static/js/main.5e953e0a.js",
     "static/js/787.ac263292.chunk.js": "/aaron-portfolio/static/js/787.ac263292.chunk.js",
     "static/media/bannerbackground.png": "/aaron-portfolio/static/media/bannerbackground.a075fd9ff39968ccdeba.png",
@@ -38,12 +38,12 @@
     "static/media/html.svg": "/aaron-portfolio/static/media/html.99054e4219c2d02988a0974f0c0e6538.svg",
     "static/media/gitlab.svg": "/aaron-portfolio/static/media/gitlab.a45800b3c3b07965455ea7c5794e44c7.svg",
     "static/media/fastapi.svg": "/aaron-portfolio/static/media/fastapi.eaaadebfea1ebb6355eaa35d086b9235.svg",
-    "main.a656edb2.css.map": "/aaron-portfolio/static/css/main.a656edb2.css.map",
+    "main.48a31b19.css.map": "/aaron-portfolio/static/css/main.48a31b19.css.map",
     "main.5e953e0a.js.map": "/aaron-portfolio/static/js/main.5e953e0a.js.map",
     "787.ac263292.chunk.js.map": "/aaron-portfolio/static/js/787.ac263292.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a656edb2.css",
+    "static/css/main.48a31b19.css",
     "static/js/main.5e953e0a.js"
   ]
 }
