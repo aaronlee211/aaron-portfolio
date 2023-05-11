@@ -1,18 +1,18 @@
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Bold.ttf');
+  src: url('./font/CentraNo2-Bold.ttf');
   font-weight: bold;
 }
 
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Medium.ttf');
+  src: url('./font/CentraNo2-Medium.ttf');
   font-weight: 500;
 }
 
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Book.ttf');
+  src: url('./font/CentraNo2-Book.ttf');
   font-weight: 400;
 }
 
@@ -217,10 +217,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/bannerbackground.png');
+  background-image: url('./img/bannerbackground.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#intro {
+  margin-top: 10%;
 }
 
 .banner .tagline {
@@ -240,12 +244,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
-  color: rgb(179, 13, 245);
+  color: rgb(255, 218, 8);
   display: block;
 }
 
 .div-span-banner {
-  height: 60px;
+  height: 10px;
 }
 
 .span-banner {
@@ -254,7 +258,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
-  color: rgb(179, 13, 245);
+  color: rgb(255, 218, 8);
   display: block;
 }
 

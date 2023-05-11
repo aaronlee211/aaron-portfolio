@@ -16,7 +16,7 @@ import html from '../skill-icons/html.svg'
 import css from '../skill-icons/css.svg'
 import typescript from '../skill-icons/typescript.svg'
 import git from '../skill-icons/git.svg'
-import colorSharp from "../assets/img/color-sharp.png"
+import skillbg from "../img/skills-background.png"
 
 function Skills() {
     const responsive = {
@@ -111,7 +111,7 @@ function Skills() {
                     </Col>
                 </Row>
             </Container>
-            <img className='background-image-left' src={colorSharp} />
+            <img className='background-image-left' src={skillbg} />
         </section>
     )
 }

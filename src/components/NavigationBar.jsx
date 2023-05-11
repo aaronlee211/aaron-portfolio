@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { Navbar, Container, Nav } from "react-bootstrap"
+import { ExternalLink } from 'react-external-link';
 import linkedin from '../img/linkedin.svg';
 import gitlab from '../img/gitlab.svg';
-import facebook from '../img/facebook.svg';
 
 
 function NavigationBar() {
@@ -42,13 +42,14 @@ function NavigationBar() {
                 </Nav>
                 <span className='navbar-text'>
                     <div className='social-icon'>
-                        <a href="#"><img src={linkedin} alt="" /></a>
-                        <a href="#"><img src={gitlab} alt="" /></a>
-                        <a href="#"><img src={facebook} alt="" /></a>
+                        <ExternalLink href="https://www.linkedin.com/in/aaron-lee-1701b3251/"><img src={linkedin} alt="" /></ExternalLink>
+                        <ExternalLink href="https://gitlab.com/aaronlee97667"><img src={gitlab} alt="" /></ExternalLink>
                     </div>
-                    <button className='vvd' onClick={() => console.log('connect')}>
-                        <span>Let's Connect</span>
-                    </button>
+                    <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : "navbar-link"}>
+                        <button className='vvd' onClick={() => onUpdateActiveLink('connect')}>
+                            <span>Let's Connect</span>
+                        </button>
+                    </Nav.Link>
                 </span>
             </Navbar.Collapse>
         </Container>

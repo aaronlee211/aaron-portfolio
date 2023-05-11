@@ -8,8 +8,7 @@ import vit3 from "../img/vit3.jpg"
 import inv1 from "../img/inventory1.png"
 import inv2 from "../img/inventory2.png"
 import inv3 from "../img/inventory3.png"
-
-import colorSharp2 from '../assets/img/color-sharp2.png'
+import projectbg from '../img/projectbg.png'
 
 function Projects() {
     const project1 = [
@@ -67,7 +66,7 @@ function Projects() {
     ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
         <Container>
             <Row>
                 <Col>
@@ -120,7 +119,7 @@ function Projects() {
                 </Col>
             </Row>
         </Container>
-        <img className="background-image-right" src={colorSharp2} alt="img"></img>
+        <img className="background-image-right" src={projectbg} alt="img"></img>
     </section>
   )
 }

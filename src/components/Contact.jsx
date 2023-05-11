@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactimg from "../img/contactimg.svg"
 import React from 'react'
 import emailjs from '@emailjs/browser'
 
@@ -54,7 +54,7 @@ function Contact() {
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
-                <img src={contactImg} alt="Contact Us"/>
+                <img src={contactimg} alt="Contact Us"/>
           </Col>
           <Col size={12} md={6}>
                 <h2>Get In Touch</h2>
