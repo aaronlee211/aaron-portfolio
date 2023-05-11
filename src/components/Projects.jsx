@@ -73,7 +73,7 @@ function Projects() {
                 <Col>
                     <h2>Projects</h2>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                        <Nav variant="pills" defaultActiveKey='/home'>
+                        <Nav variant="pills" defaultActiveKey='/home' className='nav-pills mb-5 justify-content-center align-items-center' id="pills-tab">
                             <Nav.Item>
                                 <Nav.Link eventKey="first">Vitality Fitness</Nav.Link>
                             </Nav.Item>
@@ -83,7 +83,7 @@ function Projects() {
                         </Nav>
                         <Tab.Content>
                             <Tab.Pane eventKey="first">
-                                <Row>
+                                <Row className='pane-row'>
                                     {project1.map((project, index) => {
                                         return (
                                             <ProjectCards
